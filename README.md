@@ -22,10 +22,10 @@ En los métodos de lectura de datos hay 4 que son los mas utilizados o los mas c
 
 Entrada por teclado:
 Esta entrada consta en directamente en una operación en donde se ingrese directamente en el software que se este creado, con el fin de no crear o llamar ninguna clase de lectura.
-
+```java
 import java.util.*;
 import java.io.*;
-```java
+
 public class codigos {
 	public static void main(String arg[]) {
 		  String str;
