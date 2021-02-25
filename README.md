@@ -25,7 +25,7 @@ Esta entrada consta en directamente en una operación en donde se ingrese direct
 
 import java.util.*;
 import java.io.*;
-
+```java
 public class codigos {
 	public static void main(String arg[]) {
 		  String str;
@@ -35,10 +35,11 @@ public class codigos {
         ", ¡bienvenido al curso de java para principiantes!");
 	}
 }
+```
 
 Clase de lectura Scanner
 Este método es uno de los mas utilizados y conocidos por los programadores, este analiza todos los tipos de datos primitivos y expresiones regulares aunque por medio de comandos se puede hacer la lectura de datos.
-
+```java
 import java.util.*;
 import java.io.*;
 
@@ -55,10 +56,10 @@ public class codigos {
 		sc.close();
 	}
 }
-
+```
 Clase de lectura BufferedReader e InputStreamReader
 La lectura del BufferedReader consiste en un tipo de entrada por lectura de String, básicamente hace una lectura de las funciones principales de los datos primitivos en forma de String, con el fin de que cada lectura será mas rápida y se pueda ejecutar y compilar de manera efectiva y completa, la parte del InputStreamReader lo que cumple es que hace que los datos y/o datos que se vayan a ingresar sean captados por teclado y procesados por el Buffered, una de las características es que toca colocarle las excepciones si es en caso numérico o de error como lo seria el IOException o el NumberFormatException.
-
+```java
 import java.util.*;
 import java.io.*;
 
@@ -73,9 +74,10 @@ public class codigos {
 		pw.println("La suma de los dos numero leidos con BufferedReader es: "+d+" y la multipliacion es: "+c);
 	}
 }
-
+```
 Clase Console
 Esta clase es la preferida para leer los datos de usuarios ya que su seguridad no permite en ciertos casos caracteres repetidos, un ejemplo puede ser en una contraseña de un login para un sistema de ingreso.
+```java
 <b>
 import java.util.*;
 import java.io.*;
@@ -89,6 +91,7 @@ public class codigos {
 	}
 }
 </b>
+```
 
 Ventajas 
 •	En la clase console no hay repetición de caracteres.
@@ -108,7 +111,7 @@ Clase System (salida de datos)
 La salida de datos de la clase System es la mas común y la mas utilizada entre los programadores o desarrolladores que utilicen este lenguaje en su dia a dia, esta salida tiene tres métodos de impresión, print(), println() y printf(), cada una de ellas cumple una función distinta y se pueden utilizar para resolver muchas situaciones en las que se pida una impresión especifica.
 •	Impresión print:
 Este formato de impresión muestra los que se quiere imprimir pero sin el formateo de un salto de línea, por ejemplo si se quiere imprimir “Hola mundo” sin salto de línea usamos este método y el resultado será el mismo sin ningún salto de línea.
-
+```java
 public class codigos {
 		public static void main(String arg[]) {
 			String str = "Hola mundo";
@@ -116,12 +119,13 @@ public class codigos {
 			System.out.print(" como estas");
 		}
 }
+```
 
 Este algoritmo imprimirá las dos frases en la misma línea.
 
 •	Impresión Println: 
 Este formato de impresión es muy similar al print con la pequeña diferencia del (ln) que cumple la función de aplicar un salto de línea, esto con el fin de hacer una impresión mas limpia o simplemente cumplir con los requerimientos dados.
-
+```java
 public class codigos {
 		public static void main(String arg[]) {
 			String str = "Hola mundo";
@@ -129,6 +133,7 @@ public class codigos {
 			System.out.println("como estas");
 		}
 }
+```
 
 Este algoritmo imprimirá cada uno en línea separada.
 
