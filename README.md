@@ -76,7 +76,7 @@ public class codigos {
 
 Clase Console
 Esta clase es la preferida para leer los datos de usuarios ya que su seguridad no permite en ciertos casos caracteres repetidos, un ejemplo puede ser en una contraseña de un login para un sistema de ingreso.
-
+<b>
 import java.util.*;
 import java.io.*;
 
@@ -88,6 +88,7 @@ public class codigos {
 	pw.close();
 	}
 }
+</b>
 
 Ventajas 
 •	En la clase console no hay repetición de caracteres.
